@@ -5,7 +5,7 @@ from pprint import pprint
 
 load_dotenv()
 
-def get_current_weather(city="Kansas City"):
+def get_current_weather(city="Gorakhpur"):
 
     request_url = f'https://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={city}&units=imperial'
 
